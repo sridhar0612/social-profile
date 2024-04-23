@@ -1,0 +1,64 @@
+body{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+    font-family: "Inter", sans-serif;
+}
+.card{
+    width:240px;
+    /* height:360px; */
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 12px;
+    padding:30px;
+    text-align: center;
+
+}
+.img-div{
+   width:100%;
+   text-align: center;
+
+}
+.img{
+    border-radius: 50%;
+    width: 50px;
+    
+}
+.auth-name{
+    color:hsl(0, 0%, 100%);
+}
+.state{
+    color:hsl(75, 94%, 57%);
+    font-size: 11px;
+    font-weight: 700;
+    line-height: none;
+}
+.designation{
+    font-size: 11px;
+    font-weight: 400;
+    color:hsl(0, 0%, 100%);
+    margin-top: 25px;
+ 
+}
+.user{
+    line-height: .5;
+}
+.btn-socialmedia {
+   display: block;
+   width:100%;
+   margin-bottom: 10px;
+   padding: 9px;
+   border-radius: 8px;
+   border: none;
+   color:hsl(0, 0%, 100%) ;
+   background-color: hsl(0, 0%, 20%);
+   font-weight: 700;
+}
+.btn-socialmedia:hover{
+    background-color: hsl(75, 94%, 57%);
+    color:hsl(0, 0%, 20%);
+}
